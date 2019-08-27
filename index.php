@@ -19,4 +19,3 @@ for ($i = 1105; $i > 1095; $i--) {
 file_put_contents('./cache/' . date('Ymd') . '_euromillonariaen.json', json_encode($json));
 
 R::close();
-?>
